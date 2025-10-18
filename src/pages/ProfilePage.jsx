@@ -62,7 +62,7 @@ const ProfilePage = () => {
                   <h2 className="text-2xl text-white">Post fetching...</h2>
                 }
               >
-                <PostList />
+                <PostList posts={posts} />
               </Suspense>
             </>
           ) : (

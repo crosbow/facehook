@@ -1,12 +1,17 @@
 import { useState } from "react";
 import ThreeDots from "../../assets/icons/3dots.svg";
 import useAvatar from "../../hooks/useAvatar";
+import useProfile from "../../hooks/useProfile";
 import { dateFormatter } from "../../utils/dateFormatter";
 
 const PostHeader = ({ post }) => {
   const avatarUrl = useAvatar(post);
 
   const [showActions, setShowActions] = useState(false);
+
+  const { state } = useProfile();
+
+  const isMe = post?.author?.id === state.user.id;
 
   return (
     <header className="flex items-center justify-between gap-4">
@@ -28,25 +33,27 @@ const PostHeader = ({ post }) => {
       </div>
       {/* author info ends */}
       {/* action dot */}
-      <div className="relative">
-        <button
-          onClick={() => setShowActions((prev) => !prev)}
-          className="cursor-pointer"
-        >
-          <img src={ThreeDots} alt="3dots of Action" />
-        </button>
-        {/* Action Menus Popup */}
-        {showActions && (
-          <div className="action-modal-container">
-            <button className="action-menu-item hover:text-lwsGreen">
-              Edit
-            </button>
-            <button className="action-menu-item hover:text-red-500">
-              Delete
-            </button>
-          </div>
-        )}
-      </div>
+      {isMe && (
+        <div className="relative">
+          <button
+            onClick={() => setShowActions((prev) => !prev)}
+            className="cursor-pointer"
+          >
+            <img src={ThreeDots} alt="3dots of Action" />
+          </button>
+          {/* Action Menus Popup */}
+          {showActions && (
+            <div className="action-modal-container">
+              <button className="action-menu-item hover:text-lwsGreen">
+                Edit
+              </button>
+              <button className="action-menu-item hover:text-red-500">
+                Delete
+              </button>
+            </div>
+          )}
+        </div>
+      )}
       {/* action dot ends */}
     </header>
   );

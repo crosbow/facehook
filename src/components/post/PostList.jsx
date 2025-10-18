@@ -1,11 +1,6 @@
-import useProfile from "../../hooks/useProfile";
 import PostCard from "./PostCard";
 
-const PostList = () => {
-  const {
-    state: { posts },
-  } = useProfile();
-
+const PostList = ({ posts }) => {
   return (
     <div>
       {posts.map((post) => (
