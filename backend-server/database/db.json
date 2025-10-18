@@ -60,10 +60,21 @@
             "name": "Saad Hasan",
             "avatar": "uploads/avatar/avatar-1708789609571-36760872.jpeg"
           }
+        },
+        {
+          "id": "2d21a99c-431d-4713-a585-fd9b624a8f5d",
+          "comment": "test Comment",
+          "createdAt": "2025-10-18T21:41:04.400Z",
+          "author": {
+            "id": "75c43f1a-fba4-4823-8740-65c70745f31f",
+            "name": "Jubayer Ahmed",
+            "avatar": "uploads/avatar/avatar-1760788734122-903649787.jpeg"
+          }
         }
       ],
       "likes": [
-        "6fd3ed42-2275-4d5f-a436-e5a3bf586c56"
+        "6fd3ed42-2275-4d5f-a436-e5a3bf586c56",
+        "75c43f1a-fba4-4823-8740-65c70745f31f"
       ],
       "createAt": "2024-02-24T12:17:09.169Z"
     },
@@ -93,9 +104,9 @@
           "comment": "সুন্দর",
           "createdAt": "2024-02-24T12:36:38.047Z",
           "author": {
-            "id": "ea168626-058e-49dd-b23c-3000e7bd0173",
-            "name": "MD Salahuddin",
-            "avatar": "salahuddin@email.com"
+            "id": "75c43f1a-fba4-4823-8740-65c70745f31f",
+            "name": "John Doe",
+            "avatar": "john@doe.com"
           }
         },
         {
@@ -120,8 +131,8 @@
       "image": "uploads/posts/image-1708777190872-111445232.jpg",
       "postType": "image",
       "author": {
-        "id": "6fd3ed42-2275-4d5f-a436-e5a3bf586c56",
-        "name": "Saad Hasan",
+        "id": "75c43f1a-fba4-4823-8740-65c70745f31f",
+        "name": "John Doe",
         "avatar": "uploads/avatar/avatar-1708789609571-36760872.jpeg"
       },
       "comments": [
@@ -184,12 +195,73 @@
             "name": "Saad Hasan",
             "avatar": "uploads/avatar/avatar-1708789609571-36760872.jpeg"
           }
+        },
+        {
+          "id": "02020e91-dc5f-4416-b4e8-d6ab6c4663bb",
+          "comment": "hi",
+          "createdAt": "2025-10-18T21:56:20.231Z",
+          "author": {
+            "id": "75c43f1a-fba4-4823-8740-65c70745f31f",
+            "name": "Jubayer Ahmed",
+            "avatar": "uploads/avatar/avatar-1760788734122-903649787.jpeg"
+          }
+        },
+        {
+          "id": "4e262a1d-0dd6-4d55-be0a-bff43d20e78d",
+          "comment": "oo nice",
+          "createdAt": "2025-10-18T21:57:55.995Z",
+          "author": {
+            "id": "75c43f1a-fba4-4823-8740-65c70745f31f",
+            "name": "Jubayer Ahmed",
+            "avatar": "uploads/avatar/avatar-1760788734122-903649787.jpeg"
+          }
+        },
+        {
+          "id": "2346bc65-6cbd-487f-833f-24ecfe45331e",
+          "comment": "hb",
+          "createdAt": "2025-10-18T21:58:56.189Z",
+          "author": {
+            "id": "75c43f1a-fba4-4823-8740-65c70745f31f",
+            "name": "Jubayer Ahmed",
+            "avatar": "uploads/avatar/avatar-1760788734122-903649787.jpeg"
+          }
+        },
+        {
+          "id": "a0a5eb3f-d41f-4620-859c-d68bf98904f0",
+          "comment": "Party kobe",
+          "createdAt": "2025-10-18T22:04:54.710Z",
+          "author": {
+            "id": "75c43f1a-fba4-4823-8740-65c70745f31f",
+            "name": "Jubayer Ahmed",
+            "avatar": "uploads/avatar/avatar-1760788734122-903649787.jpeg"
+          }
+        },
+        {
+          "id": "9471dcf5-db94-4871-9c42-66195e118ea2",
+          "comment": "really",
+          "createdAt": "2025-10-18T22:05:41.701Z",
+          "author": {
+            "id": "75c43f1a-fba4-4823-8740-65c70745f31f",
+            "name": "Jubayer Ahmed",
+            "avatar": "uploads/avatar/avatar-1760788734122-903649787.jpeg"
+          }
+        },
+        {
+          "id": "7ab1506a-673b-4093-8cb3-21f579438fad",
+          "comment": "nice",
+          "createdAt": "2025-10-18T22:05:47.416Z",
+          "author": {
+            "id": "75c43f1a-fba4-4823-8740-65c70745f31f",
+            "name": "Jubayer Ahmed",
+            "avatar": "uploads/avatar/avatar-1760788734122-903649787.jpeg"
+          }
         }
       ],
       "likes": [
         "ea168626-058e-49dd-b23c-3000e7bd0172",
         "8fc0f0d6-396a-4ef4-922b-27ef5b4e8526",
-        "1aeef0f0-77ba-456b-8b5b-d4145a9b5410"
+        "1aeef0f0-77ba-456b-8b5b-d4145a9b5410",
+        "75c43f1a-fba4-4823-8740-65c70745f31f"
       ],
       "createAt": "2024-02-09T12:19:50.876Z"
     },

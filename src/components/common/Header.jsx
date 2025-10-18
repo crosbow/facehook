@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
 import { SVGIcons } from "../../assets/icons";
 import logo from "../../assets/images/logo.svg";
-import useProfile from "../../hooks/useProfile";
+import useAuth from "../../hooks/useAuth";
 import Logout from "./Logout";
 
 const Header = () => {
   const {
-    state: { user },
-  } = useProfile();
+    auth: { user },
+  } = useAuth();
 
   return (
     <nav className="sticky top-0 z-50 border-b border-[#3F3F3F] bg-[#1E1F24] py-4">

@@ -1,5 +1,6 @@
 import { Suspense, useEffect } from "react";
 import { actions } from "../actions";
+import PostList from "../components/post/PostList";
 import ProfileInfo from "../components/profile/profileInfo";
 import useAuth from "../hooks/useAuth";
 import useAxios from "../hooks/useAxios";
@@ -61,7 +62,7 @@ const ProfilePage = () => {
                   <h2 className="text-2xl text-white">Post fetching...</h2>
                 }
               >
-                <Posts posts={posts} />
+                <PostList />
               </Suspense>
             </>
           ) : (

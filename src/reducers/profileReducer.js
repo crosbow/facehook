@@ -52,7 +52,7 @@ const profileReducer = (prevState, action) => {
     }
 
     default:
-      break;
+      return prevState;
   }
 };
 export default profileReducer;
