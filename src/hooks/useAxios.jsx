@@ -11,7 +11,6 @@ const useAxios = () => {
 
   useEffect(() => {
     // Request interceptor here
-    // console.log(tokens);
 
     const requestInterceptor = api.interceptors.request.use(
       (config) => {
